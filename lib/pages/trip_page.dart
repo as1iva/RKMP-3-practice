@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'app_state.dart';
+import '../data/app_state.dart';
 
 class TripPage extends StatefulWidget {
   const TripPage({super.key});

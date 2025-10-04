@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'app_state.dart';
-import 'dashboard_page.dart';
-import 'destination_page.dart';
-import 'trip_page.dart';
-import 'progress_page.dart';
-import 'info_page.dart';
+import 'data/app_state.dart';
+import 'pages/dashboard_page.dart';
+import 'pages/destination_page.dart';
+import 'pages/trip_page.dart';
+import 'pages/progress_page.dart';
+import 'pages/info_page.dart';
 
 class NavState extends ChangeNotifier {
   int _index = 0;
